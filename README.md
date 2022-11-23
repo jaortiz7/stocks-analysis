@@ -1,4 +1,5 @@
 # Stock Analysis With Excel VBA
+Click here to view the Excel file:
 
 ## Overview of Project
 ### Purpose
@@ -68,4 +69,8 @@ Refactoring helps make our code cleaner and more organized. A few advantages of 
 
 ### The Advantages of Refactoring Stock Analysis
 The biggest benefit that occurred as a result of the refactoring was an decrease in macro run time. The original analysis took approximately one second to run, whereas our new analysis only took about a four of the time (approximately 0.25 seconds) to run. Attached below are the screenshots that indicate the run time for our new analysis.
+
+### Working Code
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/114612708/203655070-91638372-4f69-4d66-b9f6-9deb38e0b31d.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/114612708/203655083-1b0ccde0-5ada-49c0-ab5f-27fe9803dc0c.png)
 
