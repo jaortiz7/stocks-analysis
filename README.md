@@ -1,5 +1,5 @@
 # Stock Analysis With Excel VBA
-Click here to view the Excel file:
+Click here to view the Excel file: 
 
 ## Overview of Project
 ### Purpose
