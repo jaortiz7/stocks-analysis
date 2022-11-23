@@ -1,5 +1,5 @@
 # Stock Analysis With Excel VBA
-Click here to view the Excel file: 
+Click here to view the Excel file: https://github.com/jaortiz7/stocks-analysis/commit/29f566e2ad364b08e8c415bd82bae6650b1f76f8
 
 ## Overview of Project
 ### Purpose
@@ -46,7 +46,7 @@ Before refactoring the code, I copy the code that was needed to create the input
             tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
          End If
 
-            '3d Increase the tickerIndex.
+         '3d) Increase the tickerIndex.
              If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
                 tickerIndex = tickerIndex + 1
             End If
@@ -65,7 +65,7 @@ Before refactoring the code, I copy the code that was needed to create the input
 
 ## Summary
 ### Pros and Cons of Refactoring Code
-Refactoring helps make our code cleaner and more organized. A few advantages of a cleaner code include design and software improvement, debugging, and faster programming. It may also benefit other users who view our projects because it becomes easier to read, as it is more concise and straightforward. However, we do not always have the luxury to refactor our code due to disadvantages. These disadvantages may range from having applications that are too large to not having the proper test cases for the existing codes, which may ultimately pose some risk if we try to refactor our code. 
+Refactoring helps make our code cleaner and more organized. A few advantages of a cleaner code include design and software improvement, debugging, and faster programming. It may also benefit other users who view our projects because it becomes easier to read, as it is more concise and straightforward. However, 
 
 ### The Advantages of Refactoring Stock Analysis
 The biggest benefit that occurred as a result of the refactoring was an decrease in macro run time. The original analysis took approximately one second to run, whereas our new analysis only took about a four of the time (approximately 0.25 seconds) to run. Attached below are the screenshots that indicate the run time for our new analysis.
